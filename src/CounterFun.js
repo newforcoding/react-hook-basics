@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 
 function CounterFun() {
     const [count,setCount] = useState(0)
@@ -7,6 +7,10 @@ function CounterFun() {
             setCount(count+1)
             setTime(new Date())
     }
+    useEffect(() => {
+        console.log("useEffect first timer here.")
+      }, [])
+    
     return (
         <div>
             <h1>Welcome to Counter Function</h1>
