@@ -9,7 +9,7 @@ function CounterFun() {
     }
     useEffect(() => {
         console.log("useEffect first timer here.")
-      }, [])
+      }, [count])
     
     return (
         <div>
