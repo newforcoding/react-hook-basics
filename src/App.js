@@ -5,6 +5,7 @@ import CounterFun from './CounterFun';
 import FunCounterIcon from './FunCounterIcon';
 import FunEffects from './FunEffects';
 import FunRefs from './FunRefs';
+import HookCallback from './HookCallback';
 import HookMemo from './HookMemo';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <FunEffects/>
       <FunRefs/> */}
       <HookMemo/>
+      <HookCallback/>
     </div>
   );
 }
