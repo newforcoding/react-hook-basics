@@ -30,6 +30,7 @@ function HookMemo() {
             Value : <input type='text' value={val} onChange={e=>setVal(e.target.value)}/><br/>
             Length : <input type='text' value={length} onChange={e=>setLength(Number(e.target.value))}/>
             <p>Our Result is { doneSomething}</p> 
+            <hr/>
         </div>
     )
 }
