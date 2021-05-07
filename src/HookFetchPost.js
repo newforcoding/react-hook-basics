@@ -15,7 +15,7 @@ function HookFetchPost({postId}) {
                         <p>{post.body}</p>
                     </div>
                 ):(
-                    <p>No Post Found</p>
+                    <p>Post Not Found</p>
                 )}
             </HookFetchCard>
         </div>
