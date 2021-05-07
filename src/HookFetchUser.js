@@ -7,7 +7,7 @@ function HookFetchUser({userId}) {
         const user = useFetch(
             `https://jsonplaceholder.typicode.com/users?id=${userId}`
             )
-            console.log(user)
+            
     return (
         <div>
             <HookFetchCard>
