@@ -2,6 +2,9 @@ import React from 'react'
 import './App.css';
 import CounterClass from './CounterClass';
 import CounterFun from './CounterFun';
+import HookFetchCard from './HookFetchCard';
+import HookFetchPost from './HookFetchPost';
+import HookFetchUser from './HookFetchUser';
 import FunCounterIcon from './FunCounterIcon';
 import FunEffects from './FunEffects';
 import FunRefs from './FunRefs';
@@ -16,8 +19,11 @@ function App() {
       <FunCounterIcon/>
       <FunEffects/>
       <FunRefs/> */}
-      <HookMemo/>
-      <HookCallback/>
+      {/* <HookMemo/>
+      <HookCallback/> */}
+      <HookFetchCard/>
+      <HookFetchPost/>
+      <HookFetchUser/>
     </div>
   );
 }
